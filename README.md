@@ -34,12 +34,12 @@ Calculate the total search traffic for the month, and then compare the value to 
 ## Mine the Search Traffic Data for Seasonality
 Group the hourly search data to plot the average traffic by the day of the week (for example, Monday vs. Friday).
 **Answer:**
-/Screenshot 2022-11-05 at 8.51.23 PM.png
-/Screenshot 2022-11-05 at 8.53.40 PM.png
+![alt text](/images/Screenshot1.png "Title")
+![alt text](/images/Screenshot2.png "Title")
 
 Note that market events emerged during 2020 that many companies found difficult. But after the initial shock to global financial markets, new customers and revenue increased for e-commerce platforms. So, slice the data to just the first half of 2020 (2020-01 to 2020-06 in the DataFrame), and then use hvPlot to plot the data. Do both time series indicate a common trend that’s consistent with this narrative?
 **Answer:**
-/Screenshot 2022-11-05 at 8.55.37 PM.png
+![alt text](/images/Screenshot3.png "Title")
 
 Yes, it is indicative of the this trend. 
 
@@ -48,32 +48,32 @@ Create a new column in the DataFrame named “Lagged Search Trends” that offse
 “Hourly Stock Return”, which holds the percentage of change in the company stock price on an hourly basis
 **Answer:**
 ### Stock Volatility
-/Screenshot 2022-11-05 at 8.57.43 PM
+![alt text](/images/Screenshot4.png "Title")
 
 Review the time series correlation, and then answer the following question: Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?
 ### Correlation 
-/Screenshot 2022-11-05 at 8.59.21 PM
+![alt text](/images/Screenshot5.png "Title")
 
 ## Create a Time Series Model by Using Prophet
 
 What is the near-term forecast for the popularity of Mercado Libre?
-/Screenshot 2022-11-05 at 9.02.46 PM.png
+![alt text](/images/Screenshot6.png "Title")
 
 What time of day exhibits the greatest popularity?
 
-/Screenshot 2022-11-05 at 9.04.55 PM
+![alt text](/images/Screenshot7.png "Title")
 
 Which day of the week gets the most search traffic?
-/Screenshot 2022-11-05 at 9.04.55 PM
+![alt text](/images/Screenshot8.png "Title")
 
 What's the lowest point for search traffic in the calendar year?
-/Screenshot 2022-11-05 at 9.06.21 PM
+![alt text](/images/Screenshot9.png "Title")
 
 ## Forecast the Revenue by Using Time Series Models
 
 Interpret the model output to identify any seasonal patterns in the company revenue. For example, what are the peak revenue days? (Mondays? Fridays? Something else?)
 
-/Screenshot 2022-11-05 at 9.08.20 PM
+![alt text](/images/Screenshot10.png "Title")
 
 
 Produce a sales forecast for the finance group. Give them a number for the expected total sales in the next quarter. Include the best- and worst-case scenarios to help them make better plans.
